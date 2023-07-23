@@ -63,15 +63,23 @@ function App() {
     );
   }
   function Menu() {
+    const pizzas = pizzaData;
+    // const pizzas = [];
+    const numPizza = pizzas.length;
+
     return (
       <menu className="menu">
         <h2>Our Menu</h2>
 
-        <ul className="pizzas">
-          {pizzaData.map((items) => (
-            <Pizza pizzaObj={items} key={items.name} />
-          ))}
-        </ul>
+        {numPizza > 0 ? (
+          <ul className="pizzas">
+            {pizzaData.map((items) => (
+              <Pizza pizzaObj={items} key={items.name} />
+            ))}
+          </ul>
+        ) : (
+          <p>We're still working on our menu. Please come back later 😊</p>
+        )}
         {/* <Pizza
           name="Pizza Spinaci"
           ingredients="Tomato, mozarella, spinach, and ricotta cheese"
