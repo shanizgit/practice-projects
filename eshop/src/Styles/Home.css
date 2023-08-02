@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Cookie&family=Great+Vibes&family=Inspiration&family=Permanent+Marker&family=Shadows+Into+Light&family=Shantell+Sans:wght@300&family=The+Girl+Next+Door&family=Zeyada&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 1500px; */
+}
+.home_container {
+  width: 100%;
+}
+.slogan {
+  font-family: "Zeyada", cursive;
+  font-size: 80px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  background: #959595;
+  background: linear-gradient(
+    to right,
+    #959595 0%,
+    #0d0d0d 46%,
+    #010101 50%,
+    #0a0a0a 53%,
+    #4e4e4e 76%,
+    #383838 87%,
+    #1b1b1b 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home_image {
+  width: 100%;
+  height: 700px;
+  z-index: -1;
+  margin-bottom: -50px;
+}
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
