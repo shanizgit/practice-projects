@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.checkoutProduct {
+  display: flex;
+  border: 1px solid #dddddd;
+  margin: 10px;
+}
+.checkoutProduct_image {
+  width: 250px;
+  height: 250px;
+  margin-right: 20px;
+}
+.checkoutProduct_rating {
+  display: flex;
+  margin-top: 10px;
+}
+.checkoutProduct_price {
+  margin-top: 10px;
+}
+.basket_button {
+  background-color: #ff9f00;
+  margin-top: 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px;
+  width: 170px;
+  margin-left: 3px;
+  font-weight: 500;
+}
+small {
+  margin-left: 10px;
+}

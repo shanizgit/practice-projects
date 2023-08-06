@@ -15,9 +15,8 @@
 .product_image {
   width: 100%;
   justify-content: space-evenly;
-  height: 260px;
+  height: 250px;
   object-fit: contain;
-  margin: 5px 0 0 10px;
 }
 .product_btn {
   background-color: #ff9f00;
@@ -43,4 +42,7 @@
   font-size: 20px;
   font-weight: 400;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+small {
+  margin-left: 10px;
 }
